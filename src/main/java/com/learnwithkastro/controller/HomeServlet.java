@@ -18,7 +18,7 @@ public class HomeServlet extends HttpServlet {
         req.setAttribute("currentYear", java.time.Year.now().getValue());
         req.setAttribute("enrolledCount", "3,568");
         req.setAttribute("successRate", "98.7%");
-        req.setAttribute("rating", "4.9");
+        req.setAttribute("rating", "4.00");
         
         req.getRequestDispatcher("index.jsp").forward(req, resp);
     }
