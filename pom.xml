@@ -12,9 +12,22 @@
 
     <name>Batch 08 DevOps Training</name>
 
-    <!-- WAR file name -->
+    <!-- Java version -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <build>
         <finalName>batch08_kastro</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+            </plugin>
+        </plugins>
     </build>
 
     <dependencies>
