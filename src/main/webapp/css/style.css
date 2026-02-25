@@ -383,7 +383,7 @@ body::after {
 }
 
 .trainer-title {
-    color: var(--matrix-green);
+    color: var(--matrix-pink);
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
